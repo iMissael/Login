@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title> <!-- Título cambiado -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h2>Bienvenido, entra a tu cuenta.</h2>
+
+    <div id="alerta-general" class="alerta oculto">
+      Ingresa tus datos correctamente.
+    </div>
+
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" placeholder="Ingresa tu correo">
+    <small id="error-email" class="error"></small>
+
+    <label for="contraseña">Contraseña</label>
+    <input type="password" id="contraseña" placeholder="Ingresa tu contraseña">
+    <small id="error-contraseña" class="error"></small>
+
+    <button class="btn" onclick="validarFormulario(
+        document.getElementById('email').value,
+        document.getElementById('contraseña').value
+      )">AUTENTICAR <i class="fas fa-sign-in-alt"></i></button>
+  </div>
+
+  <script src="js/validaciones.js"></script>
+</body>
+</html>
