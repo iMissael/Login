@@ -54,7 +54,7 @@ function validarFormulario(email, contraseña) {
     document.getElementById("alerta-general").classList.remove("oculto");
   } else {
     // Redirigir al usuario
-    window.location.href = "PCAssembly.html";
+    window.location.href = "Secundaria.html";
   }
 }
 
