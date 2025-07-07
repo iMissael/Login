@@ -71,7 +71,7 @@ Borra todos los mensajes de error antes de una nueva validación.
 
 Ventana inicial del login.
 
-![image](https://github.com/user-attachments/assets/49330501-aaf4-4691-99df-586eb5cd6a25)
+![image](https://github.com/user-attachments/assets/53ad8ad4-74f0-4fa0-9fdc-a6e41b86b3be)
 
 
 Ventana a la que nos redirige.
